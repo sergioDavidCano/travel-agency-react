@@ -1,9 +1,9 @@
-import React from "react";
-import "./app.css"
+import { useState } from 'react'
+import './App.css'
 
-const App = () =>{
-  return(
-    <h2 id="hola">App</h2>
+function App() {
+  return (
+    <div>Worling</div>
   )
 }
 
