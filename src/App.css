@@ -10,7 +10,7 @@
 :root {
   --PrimaryColor: hsl(199, 100%, 33%);
   --SecondaryColor: hsl(199, 100%, 33%);
-  --gradientColor: linear-gradient(to rigth, hsl(187, 85%, 45%), hsl(199, 100%, 33%));
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 45%), hsl(199, 100%, 33%));
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(201, 33%, 16%);
   --textColor: hsl(240, 4%, 36%);
@@ -53,7 +53,7 @@ li {
 }
 
 .btn {
-  padding: 1.6rem 1.5rem;
+  padding: .6rem 1.5rem;
   background: var(--gradientColor);
   border-radius: 3rem;
   border: none;
