@@ -1,9 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import { Footer } from './components/footer/Footer'
 
 function App() {
   return (
-    <div>Worling</div>
+    <div>
+      <div>Worling</div>
+      <Footer />
+    </div>
   )
 }
 
