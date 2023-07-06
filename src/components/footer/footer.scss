@@ -47,7 +47,7 @@
     }
   }
 
-  .secConet {
+  .secContent {
     width: 100%;
     height: max-content;
     padding: 2rem initial;
@@ -91,7 +91,7 @@
 
           &::placeholder {
             color: var(--whiteColor);
-            opacity: 0.5;
+            opacity: .5;
           }
         }
       }
