@@ -6,18 +6,16 @@ import { FiSend } from "react-icons/fi";
 export const Footer = () => {
   return (
     <section classname="footer">
-      <div classname="videoVid">
+      <div classname="videoDiv">
         <video src={video2} loop autoplay muted type="video/mp4"></video>
       </div>
 
-      <div className="setConet container">
-        <div className="contacDiv">
+      <div className="secContent container">
+        <div className="contacDiv flex">
           <div className="text">
-            <small>
-              KEEP IN TOUCH
+            <small>KEEP IN TOUCH</small>
               <h2>Travel with us</h2>
-            </small>
-          </div>
+            </div>
 
           <div className="inputDiv flex">
             <input type="text" placeholder="Enter Email Address" />
