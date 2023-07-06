@@ -1,6 +1,7 @@
 import "./footer.scss";
 import React from "react";
 import video2 from "../../assets/video(2).mp4";
+import { FiSend } from "react-icons/fi";
 
 export const Footer = () => {
   return (
@@ -21,7 +22,7 @@ export const Footer = () => {
           <div className="inputDiv flex">
             <input type="text" placeholder="Enter Email Address" />
             <button className="btn flex" type="submit">
-                SEND  
+                SEND  <FiSend className ="icon"/>
             </button>
           </div>
         </div>
