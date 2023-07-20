@@ -5,11 +5,10 @@ import { FiSend } from "react-icons/fi";
 
 export const Footer = () => {
   return (
-    <section classname="footer">
-      <div classname="videoVid">
-        <video src={video2} loop autoplay muted type="video/mp4"></video>
+    <section className="footer">
+      <div className="videoVid">
+        <video src={video2} loop autoPlay muted type="video/mp4"></video>
       </div>
-
       <div className="setConet container">
         <div className="contacDiv">
           <div className="text">
@@ -22,7 +21,7 @@ export const Footer = () => {
           <div className="inputDiv flex">
             <input type="text" placeholder="Enter Email Address" />
             <button className="btn flex" type="submit">
-                SEND  <FiSend className ="icon"/>
+              SEND  <FiSend className="icon" />
             </button>
           </div>
         </div>
