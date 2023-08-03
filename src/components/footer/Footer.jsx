@@ -7,7 +7,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaTripadvisor } from "react-icons/fa";
-import {FiChevronRight} from "react-icons/fi"
+import { FiChevronRight } from "react-icons/fi"
 
 export const Footer = () => {
   return (
@@ -50,11 +50,11 @@ export const Footer = () => {
               <FaTripadvisor className="icon" />
             </div>
           </div>
-          
+
           <div className="footerLinks grid">
             {/*Group One*/}
             <div className="linkGroup">
-              <snap className="groupTitle">OUR AGENCY</snap>
+              <span className="groupTitle">OUR AGENCY</span>
 
               <li className="footerList flex">
                 <FiChevronRight className="icon" />
@@ -77,11 +77,11 @@ export const Footer = () => {
               </li>
 
               <li className="footerList flex">
-                <FiChevronRight className="icon"/>
-                Payment 
+                <FiChevronRight className="icon" />
+                Payment
               </li>
             </div>
-            
+
           </div>
 
         </div>
