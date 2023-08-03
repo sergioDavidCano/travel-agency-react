@@ -6,7 +6,6 @@ export const Main = () => {
             <div className="sectitle">
                 <h3 className="title">
                     Sitios mas visistados
-
                 </h3>
             </div>
         </section>

@@ -3,6 +3,12 @@ import './home.scss';
 import video2 from "../../assets/video(2).mp4";
 import { GrLocation } from 'react-icons/gr';
 import { HiFilter } from 'react-icons/hi';
+import { FiFacebook } from 'react-icons/fi';
+import { BsInstagram } from 'react-icons/bs';
+import { LiaTripadvisor } from 'react-icons/lia';
+import { BsListTask } from 'react-icons/bs';
+import { TbApps } from 'react-icons/tb';
+
 export const Home = () => {
     return (
         <section className='home'>
@@ -50,6 +56,18 @@ export const Home = () => {
                     <div className="searchOptions flex">
                         <HiFilter className='icon' />
                         <span>MORE FILTERS</span>
+                    </div>
+                </div>
+
+                <div className="homeFooterIcons flex">
+                    <div className="rigthIcons">
+                        <FiFacebook className='icon' />
+                        <BsInstagram className='icon' />
+                        <LiaTripadvisor className='icon' />
+                    </div>
+                    <div className="leftIcons">
+                        <BsListTask className='icon' />
+                        <TbApps className='icon' />
                     </div>
                 </div>
             </div>

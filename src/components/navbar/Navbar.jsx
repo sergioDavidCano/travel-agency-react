@@ -50,7 +50,6 @@ export const Navbar = () => {
                             <a href='#'> BOOK NOW</a>
                         </button>
                     </ul>
-
                     <div onClick={removeNavbar} className="closeNavbar">
                         <AiFillCloseCircle className='icon' />
                     </div>

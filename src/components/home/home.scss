@@ -123,6 +123,23 @@
             }
         }
 
+        .homeFooterIcons {
+            color: var(--whiteColor);
+            width: 100%;
+            justify-content: space-between;
+
+            .icon {
+                font-size: 20px;
+                margin: 0 5px;
+                color: var(--whiteColor);
+                font-weight: 600;
+
+                &:hover {
+                    color: var(--PrimaryColor);
+                }
+            }
+        }
+
         .searchOptions {
             position: absolute;
             background: var(--gradientColor);
